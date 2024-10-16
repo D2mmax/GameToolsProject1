@@ -1,9 +1,10 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class LavaManager : MonoBehaviour
 {
     [SerializeField] private GameObject lava; // The GameObject that acts as the lava
-    private float scaleIncrease = 4f; // The amount to increase the Y scale by
+    [SerializeField] private float scaleIncrease = 4f; // The amount to increase the Y scale by
+    public Transform spawnPoint; // Reference to the spawn point
 
     private void Start()
     {
@@ -24,6 +25,10 @@ public class LavaManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Functionality to be added later
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("player detected");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }
