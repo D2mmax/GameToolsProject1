@@ -26,11 +26,15 @@ public class Sliding : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
 
+    private PlayerMovementAdvanced _playerMovement;
+
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         pm = GetComponent<PlayerMovementAdvanced>();
+        
+        _playerMovement = GetComponent<PlayerMovementAdvanced>();
 
         startYScale = playerObj.localScale.y;
     }
@@ -40,7 +44,7 @@ public class Sliding : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(slideKey) && (horizontalInput != 0 || verticalInput != 0))
+        if (Input.GetKeyDown(slideKey) && (horizontalInput != 0 || verticalInput != 0) && _playerMovement.grounded)
             StartSlide();
 
         if (Input.GetKeyUp(slideKey) && pm.sliding)
