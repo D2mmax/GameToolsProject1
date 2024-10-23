@@ -30,10 +30,16 @@ public class ShotgunJump : MonoBehaviour
         _canShoot = false;
         // Calculate the opposite direction to where the camera is looking
         Vector3 jumpDirection = -camHolder.forward;
-        
-        // Apply the force to the player Rigidbody in the opposite direction
-        playerRb.AddForce(jumpDirection * jumpStrength, ForceMode.Impulse);
 
+        if (playerRb.velocity.y < 0)
+        {
+            playerRb.AddForce(jumpDirection * (jumpStrength + -playerRb.velocity.y), ForceMode.Impulse);
+        }
+        else
+        {
+            playerRb.AddForce(jumpDirection * jumpStrength, ForceMode.Impulse);
+        }
+        
         yield return new WaitForSeconds(_cooldDown);
 
         _canShoot = true;
