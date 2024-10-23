@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 7465381581629011180}
   - component: {fileID: 2332039763539197787}
   - component: {fileID: 2206248641296656024}
+  - component: {fileID: 1802593950738056207}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -515,3 +516,21 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1802593950738056207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8174722098136913651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae46ef8350c86cc48ab020cc9a879e0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camHolder: {fileID: 0}
+  playerRb: {fileID: 2722344531657024680}
+  shootButton: 323
+  jumpStrength: 50
+  projectile: {fileID: 0}
+  _cooldDown: 2
