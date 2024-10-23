@@ -8970,10 +8970,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1634995760716015483, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
-      propertyPath: camHolder
-      value: 
-      objectReference: {fileID: 1400484299}
     - target: {fileID: 2332039763539197787, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
       propertyPath: cam
       value: 
@@ -8986,18 +8982,6 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 963194228}
-    - target: {fileID: 8090613696459285569, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090613696459285569, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8090613696459285569, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8174722098136913651, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
       propertyPath: m_Name
       value: Player
@@ -9007,8 +8991,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 963194230}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 8093674262159333695, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
