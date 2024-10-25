@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 7465381581629011180}
   - component: {fileID: 2332039763539197787}
   - component: {fileID: 2206248641296656024}
-  - component: {fileID: 1802593950738056207}
+  - component: {fileID: 2796968518434139812}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -516,7 +516,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1802593950738056207
+--- !u!114 &2796968518434139812
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -531,6 +531,6 @@ MonoBehaviour:
   camHolder: {fileID: 0}
   playerRb: {fileID: 2722344531657024680}
   shootButton: 323
-  jumpStrength: 50
+  jumpStrength: 15
   projectile: {fileID: 0}
   _cooldDown: 2
