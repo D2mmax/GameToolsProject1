@@ -2,9 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-/// added if(pm.wallrunning) return;
-
 public class Sliding : MonoBehaviour
 {
     [Header("References")]
@@ -27,7 +24,8 @@ public class Sliding : MonoBehaviour
     private float verticalInput;
 
     private PlayerMovementAdvanced _playerMovement;
-
+    private bool slideButtonHeld; // Tracks if slide key is held down
+    private bool wasGrounded;     // Tracks if player was grounded in the previous frame
 
     private void Start()
     {
@@ -37,6 +35,7 @@ public class Sliding : MonoBehaviour
         _playerMovement = GetComponent<PlayerMovementAdvanced>();
 
         startYScale = playerObj.localScale.y;
+        wasGrounded = pm.grounded;
     }
 
     private void Update()
@@ -44,22 +43,43 @@ public class Sliding : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(slideKey) && (horizontalInput != 0 || verticalInput != 0) && _playerMovement.grounded)
-            StartSlide();
+        // Track if the slide key is being held down
+        slideButtonHeld = Input.GetKey(slideKey);
 
+        // Grounded transition check: starts slide on landing if slide key is held
+        if (pm.grounded && !wasGrounded && slideButtonHeld && (horizontalInput != 0 || verticalInput != 0))
+        {
+            StartSlide();
+        }
+
+        // Begin slide if slide key is pressed while grounded and moving
+        if (Input.GetKeyDown(slideKey) && (horizontalInput != 0 || verticalInput != 0) && pm.grounded)
+        {
+            StartSlide();
+        }
+
+        // Stop sliding if the slide key is released while sliding
         if (Input.GetKeyUp(slideKey) && pm.sliding)
+        {
             StopSlide();
+        }
+
+        // Update grounded state for next frame
+        wasGrounded = pm.grounded;
     }
 
     private void FixedUpdate()
     {
+        // Continue sliding movement if currently sliding
         if (pm.sliding)
+        {
             SlidingMovement();
+        }
     }
 
     private void StartSlide()
     {
-        if (pm.wallrunning) return;
+        if (pm.wallrunning || !pm.grounded) return;
 
         pm.sliding = true;
 
@@ -73,15 +93,13 @@ public class Sliding : MonoBehaviour
     {
         Vector3 inputDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        // sliding normal
-        if(!pm.OnSlope() || rb.velocity.y > -0.1f)
+        // Sliding on a flat or uphill surface
+        if (!pm.OnSlope() || rb.velocity.y > -0.1f)
         {
             rb.AddForce(inputDirection.normalized * slideForce, ForceMode.Force);
-
             slideTimer -= Time.deltaTime;
         }
-
-        // sliding down a slope
+        // Sliding down a slope
         else
         {
             rb.AddForce(pm.GetSlopeMoveDirection(inputDirection) * slideForce, ForceMode.Force);
@@ -94,7 +112,6 @@ public class Sliding : MonoBehaviour
     private void StopSlide()
     {
         pm.sliding = false;
-
         playerObj.localScale = new Vector3(playerObj.localScale.x, startYScale, playerObj.localScale.z);
     }
 }
