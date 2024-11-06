@@ -700,6 +700,10 @@ PrefabInstance:
       propertyPath: camHolder
       value: 
       objectReference: {fileID: 731959524}
+    - target: {fileID: 2796968518434139812, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
+      propertyPath: _cooldDown
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8174722098136913651, guid: 044605451ed8bba488fb0fd16d162fea, type: 3}
       propertyPath: m_Name
       value: Player

@@ -533,4 +533,4 @@ MonoBehaviour:
   shootButton: 323
   jumpStrength: 15
   projectile: {fileID: 0}
-  _cooldDown: 2
+  _cooldDown: 2.5
