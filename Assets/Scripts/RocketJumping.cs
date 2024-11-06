@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Runtime.CompilerServices;
-using Unity.PlasticSCM.Editor.UI;
-using UnityEditor.SearchService;
+// using Unity.PlasticSCM.Editor.UI;
+// using UnityEditor.SearchService;
 using UnityEngine;
 
 public class ShotgunJump : MonoBehaviour
