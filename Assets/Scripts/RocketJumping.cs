@@ -12,16 +12,20 @@ public class ShotgunJump : MonoBehaviour
     [SerializeField] private KeyCode shootButton = KeyCode.Mouse0;  // Button used to shoot (default: Left Mouse Button)
     [SerializeField] private float jumpStrength = 10f;              // Strength of the shotgun jump
     [SerializeField] private GameObject projectile;
-
     [SerializeField] private float _cooldDown = 3f;
+    [SerializeField] private int bulletCount;
 
     private bool _canShoot = true;
-
+    private bool _enoughBullets;
     private void Update()
     {
-        if (Input.GetKeyDown(shootButton) && _canShoot)
+        if(bulletCount != 0){_enoughBullets = true;}
+        else{_enoughBullets = false;}
+        
+        if (Input.GetKeyDown(shootButton) && _canShoot && _enoughBullets)
         {
             StartCoroutine(RocketJump());
+            bulletCount--;
         }
     }
 
