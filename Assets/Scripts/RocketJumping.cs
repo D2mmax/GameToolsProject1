@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Runtime.CompilerServices;
+using TMPro;
 using Unity.PlasticSCM.Editor.UI;
 using UnityEditor.SearchService;
 using UnityEngine;
@@ -14,11 +15,17 @@ public class ShotgunJump : MonoBehaviour
     [SerializeField] private GameObject projectile;
     [SerializeField] private float _cooldDown = 3f;
     [SerializeField] private int bulletCount;
-
     private bool _canShoot = true;
+
+    [SerializeField] private TextMeshProUGUI text;
     private bool _enoughBullets;
     private void Update()
     {
+        if (text != null)
+        {
+            text.text = bulletCount.ToString("Bullets left: " + bulletCount);
+        }
+        
         if(bulletCount != 0){_enoughBullets = true;}
         else{_enoughBullets = false;}
         
