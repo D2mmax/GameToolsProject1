@@ -14,7 +14,7 @@ public class ShotgunJump : MonoBehaviour
     [SerializeField] private float jumpStrength = 10f;              // Strength of the shotgun jump
     [SerializeField] private GameObject projectile;
     [SerializeField] private float _cooldDown = 3f;
-    [SerializeField] private int bulletCount;
+    [SerializeField] public int bulletCount;
     private bool _canShoot = true;
 
     [SerializeField] private TextMeshProUGUI text;
