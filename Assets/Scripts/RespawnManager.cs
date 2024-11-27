@@ -59,9 +59,9 @@ public class RespawnManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Player Transform is not assigned to the Respawn Manager!");
+            //Debug.LogError("Player Transform is not assigned to the Respawn Manager!");
         }
 
-        // Optional: Re-enable player controls
+         
     }
 }
