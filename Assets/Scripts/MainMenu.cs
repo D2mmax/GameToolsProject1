@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
     public void ControlsToggle()
     {
 
-        mainMenuPanel.SetActive(false);
-        controlsPanel.SetActive(true);
+        mainMenuPanel.GetComponent<Canvas> ().enabled = false;
+        controlsPanel.GetComponent<Canvas> ().enabled = true;
     }
 }
