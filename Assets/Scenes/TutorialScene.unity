@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13326,9 +13326,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a8437d03ea27ad14ab6677b286785d78, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5d5e67f0cd808b446b8372047f2e34d0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -28085,11 +28085,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player and UI
       objectReference: {fileID: 0}
+    - target: {fileID: 3112043100848911343, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
+      propertyPath: lg
+      value: 
+      objectReference: {fileID: 5441964265024943433}
+    - target: {fileID: 3112043100848911343, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
+      propertyPath: maxClimbTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220221029857784013, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
+      propertyPath: walkSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220221029857784013, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
+      propertyPath: sprintSpeed
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220221029857784013, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
+      propertyPath: wallrunSpeed
+      value: 9.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
+--- !u!114 &5441964265024943433 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3174363703579235949, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
+  m_PrefabInstance: {fileID: 5441964265024943432}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ae0e31e7bb907478d76e87334b688c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
