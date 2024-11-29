@@ -4972,6 +4972,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471577057}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &498413038
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -83.39
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 316.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -406.54
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.25542852
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.04176069
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9532693
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.15585254
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 18.571
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -210
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_Name
+      value: CCTV Camera Low-poly 3D model (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
 --- !u!1 &516187058
 GameObject:
   m_ObjectHideFlags: 0
@@ -6828,6 +6897,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603508035}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &606801124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.073818
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 467.1151
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -366.4793
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25647283
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.034774814
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9571673
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.1297811
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 15.443
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_Name
+      value: CCTV Camera Low-poly 3D model (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
 --- !u!43 &615453990
 Mesh:
   m_ObjectHideFlags: 0
@@ -11832,6 +11970,75 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2121607191}
   m_LocalEulerAnglesHint: {x: 60.652, y: 0, z: 0}
+--- !u!1001 &994763475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -83.286964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 298.71152
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -456.85675
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.25542852
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.04176069
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9532693
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.15585254
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 18.571
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -210
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_Name
+      value: CCTV Camera Low-poly 3D model (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
 --- !u!1 &1001216050
 GameObject:
   m_ObjectHideFlags: 0
@@ -15099,6 +15306,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206017725}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1207604594
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.85
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 298.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -456.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.37039647
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.026318999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9085059
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.19165294
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 21.576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -134.531
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 5.811
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_Name
+      value: CCTV Camera Low-poly 3D model
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
 --- !u!1 &1213283654
 GameObject:
   m_ObjectHideFlags: 0
@@ -18957,6 +19233,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520881590}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1530542661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.034946665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 44.220985
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 314.58844
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -406.4491
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.3735282
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.08320744
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.90177625
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.20088041
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 25.116
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 225
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
+      propertyPath: m_Name
+      value: CCTV Camera Low-poly 3D model (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d6155f7fd47d8242ab88c78ad6fc713, type: 3}
 --- !u!1 &1537975785
 GameObject:
   m_ObjectHideFlags: 0
@@ -27767,3 +28112,8 @@ SceneRoots:
   - {fileID: 430964002}
   - {fileID: 289752946}
   - {fileID: 617994136}
+  - {fileID: 1207604594}
+  - {fileID: 994763475}
+  - {fileID: 498413038}
+  - {fileID: 1530542661}
+  - {fileID: 606801124}
