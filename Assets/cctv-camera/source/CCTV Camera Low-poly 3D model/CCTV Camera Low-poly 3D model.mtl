@@ -1,0 +1,30 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 31.10.2023 17:07:06
+
+newmtl cctvcamera
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Bren Mk II LMG Low-poly 3D model\Bren Mk II LMG Low-poly 3D model\mat0_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Bren Mk II LMG Low-poly 3D model\Bren Mk II LMG Low-poly 3D model\mat0_c.jpg
+
+newmtl glass
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\prime\Desktop\Work\_Work\Bren Mk II LMG Low-poly 3D model\Bren Mk II LMG Low-poly 3D model\mat0_c.jpg
+	map_Kd C:\Users\prime\Desktop\Work\_Work\Bren Mk II LMG Low-poly 3D model\Bren Mk II LMG Low-poly 3D model\mat0_c.jpg
