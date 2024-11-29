@@ -5,7 +5,7 @@ public class RespawnManager : MonoBehaviour
 {
     public Transform player; // Assign your player GameObject here
     public Vector3 startPosition; // Initial spawn position
-    public float respawnDelay = 2f; // Delay before respawning
+    public float respawnDelay = 0f; // Delay before respawning
     public int startingBulletCount = 5; // Desired bullet count value upon respawn
 
     private ShotgunJump shotgunJump; // Reference to the ShotgunJump script
