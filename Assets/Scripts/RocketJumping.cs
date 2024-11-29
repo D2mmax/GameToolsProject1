@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Runtime.CompilerServices;
 using TMPro;
+
 
 // using Unity.PlasticSCM.Editor.UI;
 // using UnityEditor.SearchService;
@@ -18,9 +20,18 @@ public class ShotgunJump : MonoBehaviour
     [SerializeField] private float _cooldDown = 3f;
     [SerializeField] public int bulletCount;
     private bool _canShoot = true;
+    
+    private AudioSource _audioSource;
+    [SerializeField] private AudioClip _clip;
 
     [SerializeField] private TextMeshProUGUI text;
     private bool _enoughBullets;
+
+    private void Start()
+    {
+        _audioSource = GetComponent<AudioSource>();
+    }
+
     private void Update()
     {
         if (text != null)
@@ -35,6 +46,7 @@ public class ShotgunJump : MonoBehaviour
         {
             StartCoroutine(RocketJump());
             bulletCount--;
+            _audioSource.PlayOneShot(_clip);
         }
     }
 
