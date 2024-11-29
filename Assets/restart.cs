@@ -6,16 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class restart : MonoBehaviour
 {
+    public RespawnManager respawnManager;
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) // Make sure your player is tagged as "Player"
         {
-            RespawnManager respawnManager = FindObjectOfType<RespawnManager>();
+            //RespawnManager respawnManager = FindObjectOfType<RespawnManager>();
+            
             if (respawnManager != null)
             {
                 
-
                 respawnManager.RespawnPlayer();
+                
             }
         }
     }

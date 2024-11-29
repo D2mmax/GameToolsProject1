@@ -740,6 +740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432fbb171b3e789409fa1e85ee85b3df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnManager: {fileID: 2105941402}
 --- !u!1 &77395422
 GameObject:
   m_ObjectHideFlags: 0
@@ -7949,6 +7950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player and UI
       objectReference: {fileID: 0}
+    - target: {fileID: 1010759557684348220, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9183,7 +9188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1657401383}
   startPosition: {x: 87.32917, y: 99.982994, z: -363.96204}
-  respawnDelay: 0
+  respawnDelay: 0.1
   startingBulletCount: 5
 --- !u!4 &2105941403
 Transform:
