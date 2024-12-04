@@ -87,13 +87,13 @@ public class LedgeGrabbingOld : MonoBehaviour
         // Move player towards ledge
         if(distanceToLedge > 0.6f)
         {
-            rb.velocity = directionToLedge * moveToLedgeSpeed;
+            rb.linearVelocity = directionToLedge * moveToLedgeSpeed;
         }
 
         // Hold onto ledge
         else
         {
-            rb.velocity = Vector3.zero;
+            rb.linearVelocity = Vector3.zero;
         }
     }
 

@@ -216,7 +216,7 @@ public class ClimbingDone : MonoBehaviour
     private void ClimbingMovement()
     {
         float speed = topReached ? vaultClimbSpeed : climbSpeed;
-        rb.velocity = new Vector3(rb.velocity.x, speed, rb.velocity.z);
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, speed, rb.linearVelocity.z);
     }
 
     private void StopClimbing()
@@ -234,7 +234,7 @@ public class ClimbingDone : MonoBehaviour
         Vector3 forceToApply = transform.up * climbJumpUpForce + frontWallHit.normal * climbJumpBackForce;
 
         // reset y velocity and add force
-        rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         rb.AddForce(forceToApply, ForceMode.Impulse);
 
         climbJumpsLeft--;
@@ -246,7 +246,7 @@ public class ClimbingDone : MonoBehaviour
 
         Vector3 forceToAdd = orientation.forward * vaultJumpForwardForce + orientation.up * vaultJumpUpForce;
 
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.AddForce(forceToAdd, ForceMode.Impulse);
 
         vaultPerformed = true;
@@ -268,7 +268,7 @@ public class ClimbingDone : MonoBehaviour
         // print(forceToAdd.y + " compared to " + maxLedgeJumpUpSpeed);
         // if (forceToAdd.y > maxLedgeJumpUpSpeed) forceToAdd = new Vector3(forceToAdd.x, maxLedgeJumpUpSpeed, forceToAdd.z);
 
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.AddForce(forceToAdd, ForceMode.Impulse);
 
         ExitLedgeHold();
@@ -285,7 +285,7 @@ public class ClimbingDone : MonoBehaviour
         lastLedge = ledgeHit.transform;
 
         rb.useGravity = false;
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
     }
 
     bool touchingLedge;
@@ -301,7 +301,7 @@ public class ClimbingDone : MonoBehaviour
             // Vector3 directionToLedge = ledgeHit.transform.position - transform.position;
             // rb.velocity = directionToLedge.normalized * moveToLedgeSpeed;
 
-            if(rb.velocity.magnitude < moveToLedgeSpeed)
+            if(rb.linearVelocity.magnitude < moveToLedgeSpeed)
                 rb.AddForce(directionToLedge.normalized * moveToLedgeSpeed * 1000f * Time.deltaTime);
 
             /// The current problem is that I can't set the velocity from here, I can only add force
