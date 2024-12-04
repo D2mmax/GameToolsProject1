@@ -238,7 +238,7 @@ public class WallRunningCompletelyAdvanced : MonoBehaviour
 
         // lerp upwards velocity of rb to 0 if gravity is turned off
 
-        float velY = rb.velocity.y;
+        float velY = rb.linearVelocity.y;
 
         /// is this smoothing needed?
         if (!useGravity)
@@ -246,7 +246,7 @@ public class WallRunningCompletelyAdvanced : MonoBehaviour
             if (velY > 0)
                 velY -= yDrossleSpeed;
 
-            rb.velocity = new Vector3(rb.velocity.x, velY, rb.velocity.z);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, velY, rb.linearVelocity.z);
         }
 
         // add forces
@@ -256,9 +256,9 @@ public class WallRunningCompletelyAdvanced : MonoBehaviour
 
         /// not the best way to handle this
         if (upwardsRunning)
-            rb.velocity = new Vector3(rb.velocity.x, wallClimbSpeed, rb.velocity.z);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, wallClimbSpeed, rb.linearVelocity.z);
         if (downwardsRunning)
-            rb.velocity = new Vector3(rb.velocity.x, -wallClimbSpeed, rb.velocity.z);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, -wallClimbSpeed, rb.linearVelocity.z);
 
         if (!exitingWall && !(wallLeft && horizontalInput > 0) && !(wallRight && horizontalInput < 0))
             rb.AddForce(-wallNormal * 100, ForceMode.Force);
@@ -342,7 +342,7 @@ public class WallRunningCompletelyAdvanced : MonoBehaviour
             forceToApply = new Vector3(forceToApply.x, 0f, forceToApply.z);
 
         // add force
-        rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         rb.AddForce(forceToApply, ForceMode.Impulse);
         // rb.AddForce(orientation.forward * 1f, ForceMode.Impulse);
 

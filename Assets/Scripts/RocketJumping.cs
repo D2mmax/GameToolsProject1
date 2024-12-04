@@ -56,9 +56,9 @@ public class ShotgunJump : MonoBehaviour
         // Calculate the opposite direction to where the camera is looking
         Vector3 jumpDirection = -camHolder.forward;
 
-        if (playerRb.velocity.y < 0)
+        if (playerRb.linearVelocity.y < 0)
         {
-            playerRb.AddForce(jumpDirection * (jumpStrength + -playerRb.velocity.y), ForceMode.Impulse);
+            playerRb.AddForce(jumpDirection * (jumpStrength + -playerRb.linearVelocity.y), ForceMode.Impulse);
         }
         else
         {

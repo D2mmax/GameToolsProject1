@@ -17,7 +17,7 @@ public class IceMagicOrb : MonoBehaviour
         Vector3 moveDirection = cam.transform.forward;
 
         // Apply force to move the orb in the camera's forward direction
-        rb.velocity = moveDirection * speed;
+        rb.linearVelocity = moveDirection * speed;
 
         // Destroy the orb after a certain lifespan
         Destroy(gameObject, lifespan);

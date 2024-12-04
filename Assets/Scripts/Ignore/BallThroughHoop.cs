@@ -70,13 +70,13 @@ public class BallThroughHoop : MonoBehaviour
 
 
         // add initial velocity
-        ballRb.velocity = new Vector3(0f, up_initialVelocity, right_initialVelocity);
+        ballRb.linearVelocity = new Vector3(0f, up_initialVelocity, right_initialVelocity);
     }
 
     /// cleaner function by sebastian lague
     private void LaunchBall()
     {
-        ballRb.velocity = CalculateLaunchVelocity();
+        ballRb.linearVelocity = CalculateLaunchVelocity();
     }
 
     private Vector3 CalculateLaunchVelocity()
