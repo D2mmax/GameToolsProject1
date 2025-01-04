@@ -4806,7 +4806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 905786690}
   - component: {fileID: 905786689}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Global Volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9021,7 +9021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6196529915870572239, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7612488248095764431, guid: 6081382e3ffec804b9540968ca27c92d, type: 3}
       propertyPath: m_Enabled
