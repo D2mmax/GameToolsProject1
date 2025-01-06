@@ -5267,6 +5267,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -7664728788398519507, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f53e80d9c069c3d4ea5c1092be02dbff, type: 2}
     - target: {fileID: -7640558969779515294, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -5434,6 +5438,30 @@ PrefabInstance:
     - target: {fileID: -1147263800698239050, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
       propertyPath: m_LocalScale.y
       value: 73.96074
+      objectReference: {fileID: 0}
+    - target: {fileID: -775069670341356040, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.6830128
+      objectReference: {fileID: 0}
+    - target: {fileID: -775069670341356040, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.68301266
+      objectReference: {fileID: 0}
+    - target: {fileID: -775069670341356040, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.1830127
+      objectReference: {fileID: 0}
+    - target: {fileID: -775069670341356040, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.18301272
+      objectReference: {fileID: 0}
+    - target: {fileID: -775069670341356040, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -775069670341356040, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: -692324938975395103, guid: 868723bb6f8e38243b840eea2d6e0275, type: 3}
       propertyPath: m_LocalScale.y
