@@ -1,39 +1,9 @@
 fileFormatVersion: 2
-guid: 868723bb6f8e38243b840eea2d6e0275
+guid: c6b365b87afd8e1409501605771be28e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Emission Green
-    second: {fileID: 2100000, guid: f765da5cc31dcb0418f8cc48648b489e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: d8897d1ddd49f374fa2f682c6e769f32, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: b97735358d5f1384a82cb7acf804cca8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 25679149a1e02cc48b418df3a1a20cf0, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Emit
-    second: {fileID: 2800000, guid: efcfb12aab12f3748be3d0574e6c5bd1, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Platform
-    second: {fileID: 2800000, guid: b93b8c24a0477aa4a8034920115126e3, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

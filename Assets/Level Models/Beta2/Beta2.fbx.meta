@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 868723bb6f8e38243b840eea2d6e0275
+guid: 39d2cb74b80fba64699837b5f8a7a997
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,33 +7,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Emission Green
-    second: {fileID: 2100000, guid: f765da5cc31dcb0418f8cc48648b489e, type: 2}
+      name: Base
+    second: {fileID: 2100000, guid: c39e40daf869c5c4cb5859aac5f56809, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: d8897d1ddd49f374fa2f682c6e769f32, type: 2}
+      name: EmitPlatforms
+    second: {fileID: 2100000, guid: bc4f95ff764f5c64ab0ae8791ce02a16, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: b97735358d5f1384a82cb7acf804cca8, type: 2}
+      name: EmitWalls
+    second: {fileID: 2100000, guid: 592b110b79ad730418c77867bb6d3542, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 25679149a1e02cc48b418df3a1a20cf0, type: 2}
+      name: Lit
+    second: {fileID: 2100000, guid: a9a12ce9c04bbd041b8ef6a8287bd9c1, type: 2}
   - first:
-      type: UnityEngine:Texture2D
+      type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Emit
-    second: {fileID: 2800000, guid: efcfb12aab12f3748be3d0574e6c5bd1, type: 3}
+      name: New_Material_3
+    second: {fileID: 2100000, guid: 6e175445210758f4eb6a4eeb2ac70d50, type: 2}
   - first:
-      type: UnityEngine:Texture2D
+      type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Platform
-    second: {fileID: 2800000, guid: b93b8c24a0477aa4a8034920115126e3, type: 3}
+      name: basic_stuff
+    second: {fileID: 2100000, guid: a661b6d1b2504f24d9e96be4258dff2a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
