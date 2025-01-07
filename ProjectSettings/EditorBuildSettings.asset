@@ -9,11 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 9b1b3ae4cff87724baa45a9d015fc009
   - enabled: 1
-    path: Assets/Scenes/TutorialScene.unity
-    guid: 3a4ba9b6395e8d945ba2a328c264e8a9
+    path: Assets/Scenes/TutorialPart1.unity
+    guid: b5d5f6678a224db4bb48b627767f7d74
   - enabled: 1
     path: Assets/Scenes/MaxNewLvl.unity
     guid: ce7dbe50549d0854f8f9e5186bcc91da
+  - enabled: 1
+    path: Assets/Scenes/BetaLvl1.unity
+    guid: bec9fe1cf8efccc498f19cc7dd0cf4c0
+  - enabled: 1
+    path: Assets/Scenes/BetaLvl2.unity
+    guid: b65944aa2ace2834ab3e7ee856b3927e
+  - enabled: 0
+    path: Assets/Scenes/TutorialScene.unity
+    guid: 3a4ba9b6395e8d945ba2a328c264e8a9
   - enabled: 0
     path: Assets/Scenes/PrototypeScene.unity
     guid: 981c0833db4a718448fadb9a604bcd92
@@ -24,3 +33,4 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2.unity
     guid: 243eb50ba8f7906428c2a1b48b7e1b59
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
